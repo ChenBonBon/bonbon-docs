@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/bonbon-docs",
   title: "库米花前端路",
   description: "8年漫漫前端路，跌跌撞撞又一天。",
   themeConfig: {
