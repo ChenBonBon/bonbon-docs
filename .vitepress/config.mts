@@ -16,7 +16,17 @@ export default defineConfig({
     sidebar: [
       {
         text: "前端心得",
-        items: [{ text: "一点碎碎念", link: "/experiences/一点碎碎念" }],
+        items: [
+          { text: "一点碎碎念", link: "/experiences/一点碎碎念" },
+          {
+            text: "Chrome 插件使用 tailwind 的坑",
+            link: "/experiences/Chrome 插件使用 tailwind 的坑",
+          },
+        ],
+      },
+      {
+        text: "算法题解",
+        items: [{ text: "两数之和", link: "/algorithms/两数之和" }],
       },
     ],
 
